@@ -93,26 +93,34 @@ fieldset {
     flex-direction: column;
     justify-content: space-around;
     height: 17vh;
-    font-size: 2.1vh;
+    font-size: 2.2vh;
     font-weight: 600;
 }
 
 #questionnaire {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    justify-content: space-evenly;
     width: 45.5vw;
+    height: 26vh;
     padding: 2vh 15vw 2vh 2.5vw;
 }
 
 #submit {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    height: 37vh;
+    padding: 4vh 0 0 2.5vw;
 }
 
 button {
     background-color: #596D48;
+    height: 5vh;
+    width: 15vw;
+    border-radius: 1vh;
+    font-size: 2vh;
+    color: white;
+    font-weight: 600;
 }
 
 .question {
@@ -123,15 +131,25 @@ button {
 }
 
 #legend {
-    font-size: 2.1vh;
+    font-size: 2.2vh;
     font-weight: 600;
 }
 
 label {
-    font-size: 1.5vh;
+    font-size: 1.4vh;
+    font-weight: 600;
+    color: rgb(84, 84, 84);
 }
 
 input {
+    height: 3vh;
+    width: 19vw;
     font-size: 1.7vh;
     padding-left: .5vw;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 3px;
+}
+
+.login {
+    color: #596D48;
 }
