@@ -5,6 +5,7 @@
 
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
     display: flex;
     margin: 0;
     padding: 0;
@@ -94,7 +95,6 @@ fieldset {
     justify-content: space-around;
     height: 17vh;
     font-size: 2.2vh;
-    font-weight: 600;
 }
 
 #questionnaire {
@@ -111,6 +111,7 @@ fieldset {
     flex-direction: column;
     height: 37vh;
     padding: 4vh 0 0 2.5vw;
+    gap: 4vh;
 }
 
 button {
@@ -132,12 +133,10 @@ button {
 
 #legend {
     font-size: 2.2vh;
-    font-weight: 600;
 }
 
 label {
     font-size: 1.4vh;
-    font-weight: 600;
     color: rgb(84, 84, 84);
 }
 
@@ -152,4 +151,9 @@ input {
 
 .login {
     color: #596D48;
+    text-decoration: none;
 }
+
+input:focus {
+    outline: 1px solid rgb(0, 116, 224);
+    box-shadow: 2px 2px 5px 0 rgba(0, 0, 0, 0.5);}
